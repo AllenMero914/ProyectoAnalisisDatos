@@ -1,0 +1,23 @@
+# Datos grandes (no subir a GitHub)
+data/raw/
+data/processed/
+data/samples/*.csv
+powerbi_data/
+
+# Ignorar CSVs gigantes en la raiz y carpetas de muestras antiguas
+/*.csv
+Muestras_Consulta_Externa/
+
+# Ignorar archivos de Power BI por limite de github (100MB)
+*.pbix
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Sistema
+.DS_Store
+Thumbs.db
+~$*.docx
+docs/extracted_docx/

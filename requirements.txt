@@ -1,0 +1,17 @@
+# ============================================================
+# requirements.txt
+# Proyecto: Análisis de Datos de Consultas Externas (2020-2025)
+# Escuela Politécnica Nacional
+# ============================================================
+
+# Manipulación y análisis de datos
+pandas==2.2.1
+numpy==1.26.4
+
+# Jupyter Notebooks
+jupyter==1.0.0
+notebook==7.1.1
+ipykernel==6.29.3
+
+# Utilidades de sistema
+tqdm==4.66.2
